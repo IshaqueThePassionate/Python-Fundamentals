@@ -68,3 +68,4 @@ When the Python software is installed on your machine, minimally, it has:
 * Inerpreter.
 * A Support Library.
 
+![Example1](https://github.com/IshaqueThePassionate/Python-Fundamentals/blob/main/images/interpreter%20and%20support%20library.png)<br><br>
