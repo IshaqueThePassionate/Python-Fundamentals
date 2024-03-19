@@ -61,7 +61,7 @@ In compiled languages, such as C, C++, and Java, the source code is first transl
 When you write Python code, it's executed by the Python interpreter, which translates and executes the instructions line by line in real-time. This means you can run Python code without the need for a separate compilation step. The Python interpreter reads your code, converts it into intermediate bytecode, and then executes that bytecode directly. This interpretation process allows for quick prototyping, easy debugging, and dynamic runtime behavior, making Python a popular choice for a wide range of applications.
 
 
-# 3. How does a Python program get executed?
+# 3. lets take a breif overview of how Python works?
 
 When the Python software is installed on your machine, minimally, it has:
 
@@ -69,3 +69,16 @@ When the Python software is installed on your machine, minimally, it has:
 * A Support Library.
 
 ![Example1](https://github.com/IshaqueThePassionate/Python-Fundamentals/blob/main/images/interpreter%20and%20support%20library.png)<br><br>
+
+Python is actually a combination or a ppackage of "Interpreter" and the "Support Library"
+so whenever you install Python you get these two things.
+Interpreter is used for running the python script,
+and the Support library contains all built-in functions, modules, data types etc.
+
+### The Interpreter.
+
+An Interpreter in nothing just a sofware which can run your python script.
+Interestingly, it can be implemented in any programming language!
+
+CPython is the default interpreter or an implementation for Python which is written in C programming language.
+
