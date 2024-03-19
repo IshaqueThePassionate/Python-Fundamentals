@@ -43,7 +43,7 @@ firstly we need to know about What the "Interpreter" is ?
 
 An interpreter is like a language translator for computers. It reads and understands the code you write in a programming language and then carries out the instructions step by step, line by line, without turning them into a different form first. It helps the computer understand and execute your commands directly, making programming easier and more interactive.
 
-## 2. There are two type of Languages.
+# 2. There are two type of Languages.
 
 1. Interpreted 
 2. Compiled 
@@ -60,4 +60,11 @@ In compiled languages, such as C, C++, and Java, the source code is first transl
 
 When you write Python code, it's executed by the Python interpreter, which translates and executes the instructions line by line in real-time. This means you can run Python code without the need for a separate compilation step. The Python interpreter reads your code, converts it into intermediate bytecode, and then executes that bytecode directly. This interpretation process allows for quick prototyping, easy debugging, and dynamic runtime behavior, making Python a popular choice for a wide range of applications.
 
+
+# 3. How does a Python program get executed?
+
+When the Python software is installed on your machine, minimally, it has:
+
+* Inerpreter.
+* A Support Library.
 
