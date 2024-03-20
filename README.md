@@ -231,3 +231,40 @@ my_variable_2
 
 # Keywords or Reserved Words
 
+Python language uses the following keywords which are not available to users to use them as identifiers.
+
+<br>![Example4](https://github.com/IshaqueThePassionate/Python-Fundamentals/blob/main/images/reversed%20keywords.png) <br> 
+
+# Constant.
+
+A constant is an identifier whose value cannot be changed throughout the execution of a program whereas the variable value keeps on changing.
+There are no constants in Python, the way they exist in C and Java. 
+In Python, It is not possible to define constant whose value can not be changed.
+In Python, Constants are usually defined on a module level and written in all capital letters with underscores separating words but remember its value can be changed.
+Ex:- 
+```python
+PI
+TOTAL
+MIN_VALUE
+
+```
+
+# Variables.
+
+We use Variables to sotre data in computer's memory.
+
+In C, Java or some other programming languages, a variable is an identifier or a name, connected to memory location.
+
+<br>![Example5]()<br><br>
+
+
+suppose we are declaring a variable:
+
+```pyhon
+
+students_count : int = 100
+
+```
+when we run this program python interpreter will allocate some memory and store this number "100"
+in that memory space, and then it will have this varible "students_count" as a reference to that memory location so the variable in python is just a lable, or a tag for that memory location,
+we can use this varible or this lable anywhere in the program to get access to memory location and the data stored there,
