@@ -68,17 +68,35 @@ When the Python software is installed on your machine, minimally, it has:
 * Inerpreter.
 * A Support Library.
 
-![Example1](https://github.com/IshaqueThePassionate/Python-Fundamentals/blob/main/images/interpreter%20and%20support%20library.png)<br><br>
-
 Python is actually a combination or a ppackage of "Interpreter" and the "Support Library"
 so whenever you install Python you get these two things.
 Interpreter is used for running the python script,
 and the Support library contains all built-in functions, modules, data types etc.
 
-### The Interpreter.
+
+<br>![Example1](https://github.com/IshaqueThePassionate/Python-Fundamentals/blob/main/images/interpreter%20and%20support%20library.png)<br><br>
+
+
+# 3. The Interpreter.
 
 An Interpreter in nothing just a sofware which can run your python script.
 Interestingly, it can be implemented in any programming language!
-
 CPython is the default interpreter or an implementation for Python which is written in C programming language.
+
+## Programmer’s view of interpreter.
+
+An interpreter is simply a software which takes our code and reads it line by line and execute it line by line to produce the output.
+
+<br>![Example2](https://github.com/IshaqueThePassionate/Python-Fundamentals/blob/main/images/interpreter%2C%20execution.png)<br><br>
+
+
+## Python's View of Interpreter, Inside the Interpreter.
+
+Now, let us scan through the python interpreter and try to understand how it works.
+
+Have a look at the diagram shown below:
+
+<br>![Example2](https://github.com/IshaqueThePassionate/Python-Fundamentals/blob/main/images/bytecode.png)<br><br>
+
+
 
