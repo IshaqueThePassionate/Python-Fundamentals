@@ -255,8 +255,15 @@ We use Variables to sotre data in computer's memory.
 
 In C, Java or some other programming languages, a variable is an identifier or a name, connected to memory location.
 
-<br>![Example5]()<br><br>
+<br>![Example5](https://github.com/IshaqueThePassionate/Python-Fundamentals/blob/main/images/variables%20in%20c%20and%20java.png)<br><br>
 
+## Variable in python.
+
+In Python, a variable is considered as tag that is tied to some value. Python considers value as objects. 
+
+<br>![Example6](https://github.com/IshaqueThePassionate/Python-Fundamentals/blob/main/images/varables%20in%20python.png) <br>
+
+<br>![Example7](https://github.com/IshaqueThePassionate/Python-Fundamentals/blob/main/images/variable%20as%20a%20tag.png)<br>
 
 suppose we are declaring a variable:
 
@@ -268,3 +275,17 @@ students_count : int = 100
 when we run this program python interpreter will allocate some memory and store this number "100"
 in that memory space, and then it will have this varible "students_count" as a reference to that memory location so the variable in python is just a lable, or a tag for that memory location,
 we can use this varible or this lable anywhere in the program to get access to memory location and the data stored there,
+
+## Rules for Declaring Variables.
+
+* Every variable name should start with alphabets or underscore (_).
+
+* No spaces are allowed in variable declaration.
+
+* Except underscore ( _ ) no other special symbol are allowed in the middle of the variable declaration
+
+* A variable is written with a combination of letters, numbers and special characters _ (underscore)
+
+* No Reserved keyword
+
+<br>![Axample8]()
