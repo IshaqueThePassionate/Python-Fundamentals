@@ -144,13 +144,8 @@ Here's a simple overview of the process:
 
 # What does Virtual Machine do?
 
-As soon as source code gets converted to byte code, it is fed into PVM (Python Virtual Machine).
-
-The PVM sounds more impressive than it is!
-
-It’s just a big loop that iterates through your byte code instructions, one by one, to carry out their operations. The PVM is the runtime engine of Python; it’s always present as part of the Python system, and is the component that truly runs your scripts. Technically, it’s just the last step of what is called the Python interpreter.
-
-So, this is how a python interpreter runs your python code!
+Python Virtual Machine (PVM) is a program which provides programming environment. The role of PVM is to convert the byte code instructions into machine code so the computer can execute those machine code instructions and display the output.
+Interpreter converts the byte code into machine code and sends that machine code to the computer processor for execution.
 
 ## Let's take an Overview of Bytecode in Python. 
 
@@ -174,7 +169,65 @@ When you run this Python script, Python compiles it into bytecode. For example, 
 
 This bytecode represents the instructions needed to execute the "add_numbers" function efficiently. Each line corresponds to an operation, such as loading values onto the stack ('LOAD_FAST'), performing an addition ('BINARY_ADD'), and returning a value ('RETURN_VALUE'). The Python interpreter then executes these bytecode instructions to perform the addition operation and return the result.
 
+# Types of other Python Compliers or Implementations,
+
+* Jpython/ Jython
+* PyPy
+* RubyPython
+* IronPython
+* StacklessPython
+* Pythonxy
+* AnacondaPython
+
+# Executing Python Program
+
+* Command Line Window
+* IDE 
+* Notepad or Notepad++
+* PyCharm
+* Visual Studio Code
+
+# IDE
+
+An IDE stands for Integrated Development Environment. It's a software application that provides comprehensive facilities to computer programmers for software development. IDEs typically include features like:
+
+* Code Editor: for writing and editing code with features like syntax highlighting, auto-completion, and code formatting.
+* Build Automation Tools: for compiling, building, and running programs.
+* Debugging Tools: for identifying and fixing errors in code.
+* Version Control Integration: for managing changes to code with systems like Git.
+* Project Management: for organizing files, resources, and dependencies within a project.
+* Collaboration Tools: for facilitating teamwork among developers working on the same project.
+
+# VS Code, Visiual Studio Code.
+
+Vs Code is very popular IDE, code editor with It's a free and open-source source code editor developed by Microsoft. VS Code is widely used for various programming languages, including Python, JavaScript, TypeScript, C++, and many others, So most of the developers choose to use VS Code.
+
+ALso my Favourite one.
 
 
+# Getting started with Core Python Concepts.
 
+## Identifires.
+
+In Python, identifiers are names used to identify variables, functions, classes, modules, or other objects. These names are created by the programmer and serve as labels for different elements of a Python program.
+
+```python
+X2
+PI
+Sigma
+age
+full_name
+MODULE_NAME
+my_variable_2
+
+```
+### Python is case sensitive programming language.
+    
+* d is not equal to D
+* t is not equal to T
+* hamza is not equal to Hamza
+* hamza is not eqaul to HAMZA
+
+
+# Keywords or Reserved Words
 
