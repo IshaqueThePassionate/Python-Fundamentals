@@ -68,7 +68,7 @@ When the Python software is installed on your machine, minimally, it has:
 * Inerpreter.
 * A Support Library.
 
-Python is actually a combination or a ppackage of "Interpreter" and the "Support Library"
+Python is actually a combination or a package of "Interpreter" and the "Support Library"
 so whenever you install Python you get these two things.
 Interpreter is used for running the python script,
 and the Support library contains all built-in functions, modules, data types etc.
@@ -142,7 +142,39 @@ Here's a simple overview of the process:
 * Execution: Finally, the Python Virtual Machine (PVM) executes the bytecode, resulting in the desired output or behavior of your program.
 
 
-### Let's take an Overview of Bytecode in Python, how it get Executed.
+# What does Virtual Machine do?
+
+As soon as source code gets converted to byte code, it is fed into PVM (Python Virtual Machine).
+
+The PVM sounds more impressive than it is!
+
+It’s just a big loop that iterates through your byte code instructions, one by one, to carry out their operations. The PVM is the runtime engine of Python; it’s always present as part of the Python system, and is the component that truly runs your scripts. Technically, it’s just the last step of what is called the Python interpreter.
+
+So, this is how a python interpreter runs your python code!
+
+## Let's take an Overview of Bytecode in Python. 
+
+Suppose you have a simple Python function:
+
+```python
+
+def add_numbers(a, b):
+    return a + b
+
+```
+When you run this Python script, Python compiles it into bytecode. For example, the bytecode for the "add_numbers" function might look like this:
+
+```pyhon
+ 1           0 LOAD_FAST                0 (a)
+              2 LOAD_FAST                1 (b)
+              4 BINARY_ADD
+              6 RETURN_VALUE
+
+```
+
+This bytecode represents the instructions needed to execute the "add_numbers" function efficiently. Each line corresponds to an operation, such as loading values onto the stack ('LOAD_FAST'), performing an addition ('BINARY_ADD'), and returning a value ('RETURN_VALUE'). The Python interpreter then executes these bytecode instructions to perform the addition operation and return the result.
+
+
 
 
 
