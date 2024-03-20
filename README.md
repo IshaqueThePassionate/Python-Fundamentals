@@ -98,5 +98,51 @@ Have a look at the diagram shown below:
 
 <br>![Example2](https://github.com/IshaqueThePassionate/Python-Fundamentals/blob/main/images/bytecode.png)<br><br>
 
+From the figure above, it can be inferred that interpreter is made up of two parts:
+
+* compiler
+* virtual machine
+
+# What does compiler do?
+
+inside the interpreter you have a Compiler and virtual Machine (VM)
+i hope you are not surprised by seeing a compiler inside the interpreter
+as you have heard that python is not compiled language, actually 
+a compiled language is one in which the compiler converts the sourse code into the machine code
+or the binary code, which is directly executed by the Machine itself.
+but in the case of python the compiler is bit different, its bit differnt as compare to the
+traditional compiler, here we are using the compiler to convert the source code to something called "bytecode"
+
+# What is "Bytecode"?
+
+You must be hearing it for the first time.
+
+Byte code is a:
+
+* lower level,
+* platform independent,
+* efficient and
+* intermediate
+
+Representation of your source code.
+
+
+In Python, bytecode is an intermediate representation of your source code that the Python 
+This bytecode is stored in .pyc files When you run a Python script or execute a Python statement, 
+the Python interpreter first converts your high-level code into bytecode, which is a lower-level,platform-independent representation of your code.
+
+Here's a simple overview of the process:
+
+* Source Code: You write your Python code in a .py file.
+
+* Compilation: When you run the Python script, the Python interpreter first compiles your source code into bytecode.
+
+* Bytecode: Bytecode is a low-level representation of your Python code, consisting of instructions that the Python Virtual Machine can execute.
+
+* Execution: Finally, the Python Virtual Machine (PVM) executes the bytecode, resulting in the desired output or behavior of your program.
+
+
+### Let's take an Overview of Bytecode in Python, how it get Executed.
+
 
 
