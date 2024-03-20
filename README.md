@@ -288,4 +288,126 @@ we can use this varible or this lable anywhere in the program to get access to m
 
 * No Reserved keyword
 
-<br>![Axample8]()
+![Axample8](https://github.com/IshaqueThePassionate/Python-Fundamentals/blob/main/images/example..%20of%20variables.png) <br><br>
+
+# Data Type
+
+Datatype represents the type of data stored into a variable or memory.
+
+Type of Data type:
+
+* Built-in Data type
+* User Defined Data type
+
+## Built-in Datatype
+
+* Numeric Types
+* Sequence Types
+* Mapping Types
+* Set Types
+* Boolean Types 
+* None Types
+
+These datatypes are provided by Python Language.
+Following are the built-in data type:- 
+<br>
+
+* Numeric Types:
+```python
+int: Integer numbers (e.g., 5, -10, 1000).
+float: Floating-point numbers (e.g., 3.14, -0.5, 2.71828).
+complex: Complex numbers (e.g., 3+2j, -1-4j).
+```
+<br>
+
+* Sequence Types:
+
+```python
+str: Strings (immutable sequences of characters, e.g., "hello", 'Python', "123").
+list: Lists (mutable sequences of elements, e.g., [1, 2, 3], ['a', 'b', 'c']).
+tuple: Tuples (immutable sequences of elements, e.g., (1, 2, 3), ('a', 'b', 'c')).
+```
+<br>
+
+* Mapping Types:
+```python
+dict: Dictionaries (unordered collections of key-value pairs, e.g., {'name': 'John', 'age': 30}).
+```
+<br>
+
+* Set Types:
+
+```python
+
+set: Sets (unordered collections of unique elements, e.g., {1, 2, 3}, {'a', 'b', 'c'}).
+frozenset: Immutable sets (similar to sets but cannot be modified after creation).
+
+```
+<br>
+
+* Boolean Types:
+
+```python
+bool: Boolean values (True or False).
+```
+<br>
+
+* None Types:
+
+```python
+None: Represents the absence of a value or a null value.
+```
+<br>
+
+# User Defined Data type
+
+* Array
+* Class
+* Module
+
+<br>
+
+* Array
+
+```python
+ from typing import List
+
+# Create an array of integers
+arr: List[int] = [1, 2, 3, 4, 5]
+print(arr)  # Output: [1, 2, 3, 4, 5]
+
+```
+<br>
+
+* Class
+
+```python
+class Person:
+    def __init__(self, name: str, age: int):
+        self.name = name
+        self.age = age
+
+# Create an instance of the Person class
+person1 = Person("Alice", 30)
+print(person1.name)  # Output: Alice
+print(person1.age)   # Output: 30
+
+```
+<br>
+
+* Module
+
+```python
+# math_operations.py
+def add(x: int, y: int) -> int:
+    return x + y
+
+# Import the module and use the add function
+import math_operations
+
+result = math_operations.add(5, 3)
+print(result)  # Output: 8
+
+```
+
+
