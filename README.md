@@ -330,6 +330,7 @@ tuple: Tuples (immutable sequences of elements, e.g., (1, 2, 3), ('a', 'b', 'c')
 <br>
 
 * Mapping Types:
+
 ```python
 dict: Dictionaries (unordered collections of key-value pairs, e.g., {'name': 'John', 'age': 30}).
 ```
@@ -410,4 +411,213 @@ print(result)  # Output: 8
 
 ```
 
+
+# Operators
+
+An operator is a symbol that performs an operation.
+
+Types of Opereators in Python:
+
+* Arithmetic Operators
+* Relational Operators / Comparison Operators
+* Logical Operators 
+* Assignment Operators
+* Bitwise Operators
+* Membership Operators
+* Identity Operators
+
+## Arithmetic Operators
+
+Arithmetic operators in Python are used to perform mathematical operations on numeric operands. Python supports the following arithmetic operators:
+
+* Addition ("+"):
+
+ Adds two operands.
+
+```python
+result = 5 + 3
+print(result)  # Output: 8
+
+```
+
+* Subtraction ("-"): 
+
+Subtracts the second operand from the first.
+
+```python
+result = 5 - 3
+print(result)  # Output: 2
+
+```
+
+Multiplication ("*"):
+
+ Multiplies two operands.
+
+```python
+result = 5 * 3
+print(result)  # Output: 15
+
+```
+
+Division ("/"): 
+
+Divides the first operand by the second (returns a float).
+
+```python
+result = 5 / 3
+print(result)  # Output: 1.6666666666666667
+
+```
+
+* Floor Division (//): 
+
+Divides the first operand by the second and returns the floor value (integer division).
+
+```python
+result = 5 // 3
+print(result)  # Output: 1
+
+```
+* Modulus ("%"): 
+
+Returns the remainder of the division of the first operand by the second.
+
+```python
+result = 5 % 3
+print(result)  # Output: 2
+
+```
+
+* Exponentiation ("**"):
+
+ Raises the first operand to the power of the second.
+
+```python
+result = 5 ** 3
+print(result)  # Output: 125
+```
+
+## Relational/ Comparison Operators
+
+Relational operators in Python, also known as comparison operators, are used to compare the values of operands. They return Boolean values (True or False) based on whether the comparison is true or false. Python supports the following relational operators:
+
+* Equal to (==): 
+
+Returns True if the values of the two operands are equal, otherwise returns False.
+
+```python
+print(5 == 5)  # Output: True
+print(5 == 3)  # Output: False
+```
+
+* Not equal to (!=):
+
+returns True if the values of the two operands are not equal, otherwise returns False.
+
+```python
+print(5 != 5)  # Output: False
+print(5 != 3)  # Output: True
+```
+
+
+* Greater than (>): 
+
+Returns True if the value of the first operand is greater than the value of the second operand, otherwise returns False.
+
+```python
+print(5 > 3)  # Output: True
+print(5 > 7)  # Output: False
+```
+
+* Less than (<):
+
+Returns True if the value of the first operand is less than the value of the second operand, otherwise returns False.
+
+```python
+print(5 < 3)  # Output: False
+print(5 < 7)  # Output: True
+```
+
+* Greater than or equal to (>=):
+
+Returns True if the value of the first operand is greater than or equal to the value of the second operand, otherwise returns False.
+
+```python
+print(5 >= 3)  # Output: True
+print(5 >= 5)  # Output: True
+```
+
+* Less than or equal to (<=): 
+
+Returns True if the value of the first operand is less than or equal to the value of the second operand, otherwise returns False.
+
+```python
+print(5 <= 3)  # Output: False
+print(5 <= 5)  # Output: True
+```
+
+
+
+
+
+
+
+## Logical Operators
+
+* and 
+* or 
+* not 
+
+Logical operators are used to connect more relational operations to form a complex expression called logical expression. A value obtained by evaluating a logical expression is always logical, i.e. either True or False.
+
+
+### and 
+
+In Python, the "and" operator is used to perform a logical AND operation between two operands. It returns True if both operands are True, otherwise it returns False.
+The "and" operator is commonly used in boolean expressions and conditional statements to check if multiple conditions are True simultaneously.
+
+* If both operands are True, the "and" operator returns True.
+* If at least one operand is False, the "and" operator returns False.
+
+```python
+
+print(True and True)   # Output: True
+print(True and False)  # Output: False
+print(False and True)  # Output: False
+print(False and False) # Output: False
+
+```
+
+### or
+
+In Python, the "or" operator is a logical operator used to perform a logical OR operation between two operands. It returns True if at least one of the operands is True, otherwise it returns False.
+
+* If at least one operand is True, the "or" operator returns True.
+* If both operands are False, the "or" operator returns False.
+
+```python
+print(True or True)    # Output: True
+print(True or False)   # Output: True
+print(False or True)   # Output: True
+print(False or False)  # Output: False
+
+```
+In the first three examples, at least one operand is True, so the "or" operator returns True.
+In the fourth example, both operands are False, so the "or" operator returns False.
+
+
+### not
+
+In Python, the "not" operator is a logical operator used to perform logical negation on a single operand. It returns True if the operand is False, and returns False if the operand is True.
+
+* If the operand is False, the "not" operator returns True.
+* If the operand is True, the "not" operator returns False.
+
+```python
+
+print(not True)   # Output: False
+print(not False)  # Output: True
+
+```
 
