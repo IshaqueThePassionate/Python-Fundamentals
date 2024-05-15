@@ -1,5 +1,15 @@
 # Python Fundamentals 
 
+This repository serves as a comprehensive guide to fundamental programming concepts using [programming language]. Whether you are a beginner or seeking a refresher, this README file covers essential topics.
+
+## Table of Contents.
+
+1. [Python](#1-Python)
+2. [There are two type of Languages](#2-There-are-two-type-of-Languages)
+3. [lets take a breif overview of how Python works](#3-lets-take-a-breif-overview-of-how-Python-works)
+4. [The Interpreter](#4-The-Interpreter)
+
+ 
 Welcome to PyTheory, Here..! You are good to go for uncovering the key concepts and important principles of Python Programming Language.
 Whether you're new to programming and want to learn the basics, or you're already pretty good and want to learn more, this repository has
 something for everyone. I've made sure everything is explained in a simple words.
