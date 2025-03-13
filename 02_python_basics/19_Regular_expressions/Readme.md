@@ -106,5 +106,5 @@ So, what exactly are regular expressions? Surprise! There isn't a single answer.
 | **`\\`**              | Matches a literal backslash (`\`) character. Useful for escaping special characters.                                                                             |
 | **`(?iLmsux)`**        | Alternate way to set optional flags within a pattern. Flags control the regex behavior (case insensitivity, multiline mode, etc.).                                 |
 
----
+
 
